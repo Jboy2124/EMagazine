@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+
+
+/* ----------------------- */
+/* NAVIGATION  */
+/* ----------------------- */
+#nav-background {
+    background-color: 	#113b62;
+}
+
+#footer-background {
+    background-color: #85a7c5;
+}
+
+#nav-brand {
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'The Nautigal', cursive; */
+    font-weight: normal;
+    font-size: 2em;
+    color: white;
+    padding: 15px;
+}
+
+#nav-items {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#nav-items:hover {
+    border-bottom: 1px solid white;
+    /* border-color: #bc1a1a; */
+
+}
+
+#search-element {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.selected {
+    border-bottom: 1px solid white;
+}
+
+
+/* ----------------------- */
+/* SUB HEADER  */
+/* ----------------------- */
+#header-sub {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+#sub-header-p {
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/* ----------------------- */
+/* GALLERY CONTENT  */
+/* ----------------------- */
+#image-1 {
+    height: 100%;
+    width: 100%;
+}
+
+#image-1:hover {
+    transform: scale(1.1);
+    transition: 0.9s;
+    opacity: 0.8;
+}
+
+/* ----------------------- */
+/* GALLERY DESCRIPTION  */
+/* ----------------------- */
+
+#image-gallery-description {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#image-gallery-description > p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+/* ----------------------- */
+/* COLUMNIST SIDE */
+/* ----------------------- */
+#latest-fashion-header {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#fashion-1 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    padding-top: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+
+#fashion-2 {
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-right: 5px;
+
+}
+
+#fashion-4  {
+    width: 100%;
+    height: 50%;
+    float:left;
+}
+
+#fashion-4:hover {
+    /* transform: scale(1.1); */
+    opacity: 0.8;
+    transition: 0.9s;
+}
+
+#fashion-paragraph, #column-1-collapes {
+    font-size: 13px;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+#contributor {
+    padding-top: 15px;
+    margin-top: 0;
+}
+
+.author {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/* ----------------------- */
+/* LIFESTYLE */
+/* ----------------------- */
+
+#lifestyle-header {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+#house-tour:hover {
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+
+/* ----------------------- */
+/* FOOTER */
+/* ----------------------- */
+
+
+
+.txt-footer-head, .txt-footer-latest {
+    color: black;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
+
+
+
+#footer-text {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+    opacity: 0.9;
+}
+
+#footer-text > li, .txt-footer-head {
+    padding-left: 150px;
+}
+
+.txt-footer-head, .txt-footer-latest {
+    padding-bottom: 10px;
+}
+
+#footer-text > li > a {
+    color: black;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+#footer-text > li > a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 680px) {
+    #footer-text > li, .txt-footer-head {
+        padding-left: 3px;
+        padding-top: 3px;
+    }
+}

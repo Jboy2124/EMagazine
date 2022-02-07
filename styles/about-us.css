@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+
+* {
+    font-size: 14px;
+}
+
+/* ----------------------- */
+/* NAVIGATION  */
+/* ----------------------- */
+#nav-background {
+    background-color: 	#113b62;
+}
+
+#footer-background {
+    background-color: #85a7c5;
+}
+
+#nav-brand {
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'The Nautigal', cursive; */
+    font-weight: normal;
+    font-size: 2em;
+    color: white;
+    padding: 15px;
+}
+
+#nav-items {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#nav-items:hover {
+    border-bottom: 1px solid white;
+    /* border-color: #bc1a1a; */
+
+}
+
+#search-element {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.selected {
+    border-bottom: 1px solid white;
+}
+
+
+/* ----------------------- */
+/* CONTENT */
+/* ----------------------- */
+
+
+
+p {
+    text-align: justify;
+}
+
+
+
+/* ----------------------- */
+/* FOOTER */
+/* ----------------------- */
+
+.txt-footer-head, .txt-footer-latest {
+    color: black;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
+
+
+
+#footer-text {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: black;
+    opacity: 0.9;
+}
+
+#footer-text > li, .txt-footer-head {
+    padding-left: 150px;
+}
+
+.txt-footer-head, .txt-footer-latest {
+    padding-bottom: 10px;
+}
+
+#footer-text > li > a {
+    color: black;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+#footer-text > li > a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 680px) {
+    #footer-text > li, .txt-footer-head {
+        padding-left: 3px;
+        padding-top: 3px;
+    }
+}
