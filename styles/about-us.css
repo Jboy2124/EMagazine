@@ -53,6 +53,11 @@
 /* CONTENT */
 /* ----------------------- */
 
+h1, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+
 p {
     text-align: justify;
     text-indent: 25px;

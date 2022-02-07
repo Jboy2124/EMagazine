@@ -50,6 +50,10 @@
 /* ----------------------- */
 /* CONTENT */
 /* ----------------------- */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
 .description, 
 #news-1-collapse, 
 #news-2-collapse, 

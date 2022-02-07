@@ -51,6 +51,11 @@
 /* ----------------------- */
 /* CONTENT */
 /* ----------------------- */
+
+h1, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
 #lead-image {
     /* height: 100%; */
     padding-bottom: 1px;

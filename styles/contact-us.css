@@ -53,6 +53,10 @@
 /* ----------------------- */
 /* CONTENT */
 /* ----------------------- */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
 #row-pad {
     padding-left: 3px;
     padding-right: 3px;
