@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
 
+* {
+    font-size: 14px;
+}
 
 /* ----------------------- */
 /* NAVIGATION  */
@@ -59,9 +62,14 @@
     opacity: 0.8;
     transform: scale(1.1);
     transition: 0.8s;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
+div > p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 20px;
+}
 
 #latest-edition-cover:hover {
     opacity: 0.8;
