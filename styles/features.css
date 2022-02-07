@@ -61,6 +61,13 @@ img {
     height: 100%;
 }
 
+p {
+    text-align: justify;
+}
+
+#celeb-details {
+    text-indent: 25px;
+}
 
 img:hover {
     opacity: 0.9;
