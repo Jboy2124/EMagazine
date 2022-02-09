@@ -1,0 +1,35 @@
+@use "header-style";
+@use "footer-style";
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap";
+
+$dim-value: 100%;
+$opacity: 0.8;
+
+
+h1, h3 {
+    font-family: 'Playfair Display', serif;;
+    font-weight: normal;
+}
+#latest-edition-cover {
+    width: $dim-value;
+    height: $dim-value;
+    &:hover {
+        $opacity: 0.8;
+    }
+}
+
+#archive-image:hover {
+    opacity: $opacity;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+div > p {
+    text-align: justify;
+}
+
+img {
+    justify-content: center;
+    width: $dim-value;
+    height: $dim-value;
+}

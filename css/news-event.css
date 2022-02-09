@@ -40,6 +40,7 @@
   color: black;
   opacity: 0.9;
   font-family: sans-serif;
+  padding-bottom: 10px;
 }
 
 #footer-text {
@@ -52,16 +53,11 @@
   padding-left: 150px;
 }
 
-.txt-footer-head, .txt-footer-latest {
-  padding-bottom: 10px;
-}
-
 #footer-text > li > a {
   color: black;
   opacity: 0.9;
   text-decoration: none;
 }
-
 #footer-text > li > a:hover {
   text-decoration: underline;
 }
@@ -72,12 +68,16 @@
     padding-top: 3px;
   }
 }
-h1, h3 {
+h1 {
   font-family: "Playfair Display", serif;
   font-weight: normal;
 }
 
-#authors {
+.description,
+#news-1-collapse,
+#news-2-collapse,
+#news-3-collapse,
+#news-4-collapse {
   text-align: justify;
   text-indent: 25px;
 }

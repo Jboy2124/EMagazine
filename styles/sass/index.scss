@@ -1,0 +1,123 @@
+@use "header-style";
+@use "footer-style";
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap";
+
+
+$font: 'Playfair Display', serif;
+
+
+/* ----------------------- */
+/* SUB HEADER  */
+/* ----------------------- */
+#header-sub {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    /* font-size: 2em; */
+}
+
+#sub-header-p {
+    // font-family: sans-serif;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+/* ----------------------- */
+/* GALLERY CONTENT  */
+/* ----------------------- */
+#image-1 {
+    height: 100%;
+    width: 100%;
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.9s;
+        opacity: 0.8;
+    }
+}
+
+
+/* ----------------------- */
+/* GALLERY DESCRIPTION  */
+/* ----------------------- */
+
+#image-gallery-description {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+#image-gallery-description > p {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+/* ----------------------- */
+/* COLUMNIST SIDE */
+/* ----------------------- */
+#latest-fashion-header {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    /* padding-bottom: 10px; */
+}
+
+#fashion-1 {
+    width: 30%;
+    height: 40%;
+    float: left;
+    padding-top: 5px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+
+#fashion-2 {
+    width: 40%;
+    height: 50%;
+    float: left;
+    margin-right: 5px;
+
+}
+
+#fashion-4  {
+    width: 100%;
+    height: 50%;
+    float:left;
+    &:hover {
+        opacity: 0.8;
+        transition: 0.9s;
+    }
+}
+
+
+#fashion-paragraph, #column-1-collapes {
+    font-size: 13px;
+    text-align: justify;
+    text-indent: 35px;
+}
+
+#contributor {
+    padding-top: 15px;
+    margin-top: 0;
+}
+
+.author {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/* ----------------------- */
+/* LIFESTYLE */
+/* ----------------------- */
+
+#lifestyle-header {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    /* padding-bottom: 10px; */
+}
+
+
+#house-tour:hover {
+    transform: scale(1.1);
+    transition: 0.9s;
+}
