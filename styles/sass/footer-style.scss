@@ -1,0 +1,41 @@
+$txt-opacity: 0.9;
+$fonts: sans-serif;
+
+
+#footer-background {
+    background-color: #85a7c5;
+}
+
+.txt-footer-head, .txt-footer-latest {
+    color: black;
+    opacity: $txt-opacity;
+    font-family: $fonts;
+    padding-bottom: 10px;
+}
+
+#footer-text {
+    font-family: $fonts;
+    color: black;
+    opacity: $txt-opacity;
+}
+
+#footer-text > li, .txt-footer-head {
+    padding-left: 150px;
+}
+
+#footer-text > li > a {
+    color: black;
+    opacity: $txt-opacity;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 680px) {
+    #footer-text > li, .txt-footer-head {
+        padding-left: 3px;
+        padding-top: 3px;
+    }
+}

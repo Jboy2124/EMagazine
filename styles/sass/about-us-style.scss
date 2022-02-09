@@ -1,0 +1,15 @@
+
+@use "header-style";
+@use "footer-style";
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap";
+
+
+h1, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+
+#authors {
+    text-align: justify;
+    text-indent: 25px;
+}

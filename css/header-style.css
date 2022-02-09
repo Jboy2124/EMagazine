@@ -1,0 +1,32 @@
+* {
+  font-size: 14px;
+}
+
+#nav-background {
+  background-color: #113b62;
+}
+
+#nav-brand {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  font-size: 2em;
+  color: white;
+  padding: 15px;
+}
+
+#nav-items {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+}
+#nav-items:hover {
+  border-bottom: 1px solid white;
+}
+
+#search-element {
+  padding: 0px 15px 0px;
+}
+
+.selected {
+  border-bottom: 1px solid white;
+}

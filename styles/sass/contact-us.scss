@@ -1,0 +1,34 @@
+@use "header-style";
+@use "footer-style";
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap";
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+#row-pad {
+    padding: 0px 3px 30px;
+}
+
+#logo-position {
+    text-align: right;
+    padding-bottom: 2px;
+}
+
+
+div > p > a {
+    text-decoration: none;
+    color: black;
+}
+
+#info {
+    margin: 0px;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 680px) {
+    #logo-position {
+        text-align: left;
+        padding-left: 5px;
+    }
+}

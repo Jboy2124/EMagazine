@@ -1,0 +1,36 @@
+$padding-value: 15px;
+$txt-color: white;
+
+* {
+    font-size: 14px;
+}
+
+#nav-background {
+    background-color: 	#113b62;
+}
+
+
+#nav-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 2em;
+    color: $txt-color;
+    padding: $padding-value;
+}
+
+#nav-items {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: $txt-color;
+    &:hover {
+        border-bottom: 1px solid $txt-color;
+    }
+}
+
+#search-element {
+    padding: 0px $padding-value 0px;
+}
+
+.selected {
+    border-bottom: 1px solid $txt-color;
+}
