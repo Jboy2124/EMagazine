@@ -1,0 +1,32 @@
+@use "header-style";
+@use "footer-style";
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap";
+
+$dim: 100%;
+
+h1, h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+#lead-image {
+    padding-bottom: 1px;
+}
+
+img {
+    width: $dim;
+    height: $dim;
+    &:hover {
+        opacity: 0.9;
+        transform: scale(1.1);
+        transition: 0.9s;
+    }
+}
+
+p {
+    text-align: justify;
+}
+
+#celeb-details {
+    text-indent: 25px;
+}
+
