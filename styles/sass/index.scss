@@ -103,7 +103,6 @@ $ontWeight: normal;
 }
 
 
-
 /* ----------------------- */
 /* LIFESTYLE */
 /* ----------------------- */
@@ -113,6 +112,16 @@ $ontWeight: normal;
     font-weight: $ontWeight;
 }
 
+.words {
+    // background-color: blue;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 
 #house-tour {
     width: 100%;
@@ -120,4 +129,20 @@ $ontWeight: normal;
         transform: scale(1.1);
         transition: 0.9s;
     }
+}
+
+ div > a {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#prob1, #prob2, #prob3 {
+    text-align: justify;
+}
+
+#life-probs:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
