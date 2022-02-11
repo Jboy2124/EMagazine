@@ -181,19 +181,14 @@
 div > a {
   font-size: 20px;
   text-decoration: none;
-  text-align: center;
   color: black;
 }
 
-#prob1, #prob2, #prob3 {
+#prob1, #prob2, #prob3, #tag-heuer {
   text-align: justify;
 }
 
 #life-probs:hover {
   opacity: 0.9;
   cursor: pointer;
-}
-
-#tag-heuer {
-  text-align: justify;
 }

@@ -134,11 +134,11 @@ $ontWeight: normal;
  div > a {
     font-size: 20px;
     text-decoration: none;
-    text-align: center;
+    // text-align: center;
     color: black;
 }
 
-#prob1, #prob2, #prob3 {
+#prob1, #prob2, #prob3, #tag-heuer {
     text-align: justify;
 }
 
@@ -146,8 +146,3 @@ $ontWeight: normal;
     opacity: 0.9;
     cursor: pointer;
 }
-
-#tag-heuer {
-    text-align: justify;
-}
-
